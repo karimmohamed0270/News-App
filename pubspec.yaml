@@ -1,0 +1,49 @@
+name: strore_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Versioning
+version: 1.0.0+1
+
+# Dart SDK constraints (must support null safety with Dart 3.9.2)
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP requests package
+  http: ^1.5.0
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.6
+  modal_progress_hud_nsn: ^0.5.1
+
+# Development-only dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# Flutter-specific section
+flutter:
+  uses-material-design: true
+
+  # To add assets, uncomment and add file paths:
+  # assets:
+  #   - assets/images/
+
+  # To add custom fonts, uncomment and configure:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
