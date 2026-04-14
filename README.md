@@ -1,4 +1,4 @@
-# strore_app
+# store_app
 
 Developed a news application using Flutter and REST APIs to deliver real-time news 
 
