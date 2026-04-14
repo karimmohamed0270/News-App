@@ -2,8 +2,6 @@
 
 Developed a news application using Flutter and REST APIs to deliver real-time news 
 
-GitHub: https://github.com/karimmohamed0270/News-App
-
 Key Features:
 - Fetching news data from external APIs
 - Displaying categorized news (e.g., Business, Sports, Technology)
